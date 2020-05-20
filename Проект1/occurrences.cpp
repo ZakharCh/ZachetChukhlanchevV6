@@ -46,7 +46,7 @@ int main()
 		for (int j = i + 1; j < int(naidenoe.size()); j++)
 			if (naidenoe[i] == naidenoe[j])
 			{
-				naidenoe[j] = "0";
+				naidenoe[i] = "0";
 			}
 
 	for (int i = 0; i < inaidenoe; i++)
